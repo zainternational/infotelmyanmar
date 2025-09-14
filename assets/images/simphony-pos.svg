@@ -1,0 +1,33 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0056b3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a0e9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+  
+  <!-- POS System Icon -->
+  <g transform="translate(200, 150) scale(1.2)">
+    <!-- POS Terminal -->
+    <rect x="-60" y="-40" width="120" height="80" fill="white" rx="5" />
+    <rect x="-50" y="-30" width="100" height="60" fill="#e9ecef" rx="2" />
+    
+    <!-- Screen Content -->
+    <rect x="-40" y="-20" width="80" height="10" fill="#0056b3" rx="2" />
+    <rect x="-40" y="-5" width="40" height="5" fill="#0056b3" rx="2" />
+    <rect x="-40" y="5" width="30" height="5" fill="#0056b3" rx="2" />
+    <rect x="-40" y="15" width="80" height="5" fill="#0056b3" rx="2" />
+    <rect x="-40" y="25" width="60" height="5" fill="#0056b3" rx="2" />
+    
+    <!-- Base -->
+    <rect x="-30" y="40" width="60" height="10" fill="#dee2e6" rx="2" />
+    
+    <!-- Receipt Printer -->
+    <rect x="40" y="0" width="30" height="20" fill="#dee2e6" rx="2" />
+    <rect x="45" y="-15" width="20" height="15" fill="white" />
+    
+    <!-- Text -->
+    <text x="0" y="-50" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">SIMPHONY POS</text>
+  </g>
+</svg>

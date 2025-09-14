@@ -1,0 +1,185 @@
+/* Responsive CSS Overrides for Infotel Myanmar */
+
+/* Additional Mobile Optimizations */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet Landscape Optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .solutions-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+/* Large Desktop Optimizations */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    
+    .hero h1 {
+        font-size: 4rem;
+    }
+    
+    .solutions-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .footer,
+    .back-to-top,
+    .loading-screen {
+        display: none !important;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+        color: #000;
+        background: #fff;
+    }
+    
+    .container {
+        max-width: none;
+        padding: 0;
+    }
+    
+    .section-title {
+        color: #000;
+        font-size: 18pt;
+    }
+    
+    .btn {
+        border: 1pt solid #000;
+        background: transparent;
+        color: #000;
+    }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #000;
+        --secondary-color: #000;
+        --text-color: #000;
+        --light-text: #fff;
+        --light-bg: #fff;
+        --border-color: #000;
+    }
+    
+    .btn {
+        border: 2px solid currentColor;
+    }
+}
+
+/* Container Queries Support */
+@container (min-width: 400px) {
+    .card {
+        padding: var(--spacing-lg);
+    }
+}
+
+@container (min-width: 600px) {
+    .card {
+        padding: var(--spacing-xl);
+    }
+}
+
+/* Modern CSS Features */
+@supports (display: grid) {
+    .grid-container {
+        display: grid;
+        gap: var(--spacing-md);
+    }
+}
+
+@supports (backdrop-filter: blur(10px)) {
+    .modal-backdrop {
+        backdrop-filter: blur(10px);
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* CSS Logical Properties */
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.margin-inline-start {
+    margin-inline-start: var(--spacing-md);
+}
+
+.margin-inline-end {
+    margin-inline-end: var(--spacing-md);
+}
+
+.padding-inline {
+    padding-inline: var(--spacing-md);
+}
+
+/* Focus Management */
+:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* Scroll Snap */
+.scroll-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.scroll-item {
+    scroll-snap-align: start;
+}
+
+/* Removed dark mode CSS to maintain white background */

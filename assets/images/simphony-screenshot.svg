@@ -1,0 +1,68 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f5f7fa"/>
+  
+  <!-- POS Terminal Frame -->
+  <rect x="50" y="50" width="700" height="400" rx="10" ry="10" fill="#2c3e50" stroke="#1a2530" stroke-width="3"/>
+  
+  <!-- Screen Area -->
+  <rect x="70" y="70" width="660" height="360" rx="5" ry="5" fill="#ecf0f1"/>
+  
+  <!-- Header Bar -->
+  <rect x="70" y="70" width="660" height="50" rx="5" ry="5" fill="#e74c3c"/>
+  <text x="100" y="105" font-family="Arial" font-size="20" font-weight="bold" fill="#fff">Oracle Hospitality Simphony POS</text>
+  
+  <!-- Time and Status -->
+  <text x="650" y="105" font-family="Arial" font-size="16" fill="#fff">14:30</text>
+  
+  <!-- Main Order Area -->
+  <rect x="70" y="130" width="400" height="300" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Order Items -->
+  <rect x="80" y="140" width="380" height="40" fill="#f9f9f9"/>
+  <text x="90" y="165" font-family="Arial" font-size="14" fill="#333">Grilled Salmon</text>
+  <text x="400" y="165" font-family="Arial" font-size="14" fill="#333" text-anchor="end">$24.99</text>
+  
+  <rect x="80" y="180" width="380" height="40" fill="#fff"/>
+  <text x="90" y="205" font-family="Arial" font-size="14" fill="#333">Caesar Salad</text>
+  <text x="400" y="205" font-family="Arial" font-size="14" fill="#333" text-anchor="end">$12.50</text>
+  
+  <rect x="80" y="220" width="380" height="40" fill="#f9f9f9"/>
+  <text x="90" y="245" font-family="Arial" font-size="14" fill="#333">Sparkling Water</text>
+  <text x="400" y="245" font-family="Arial" font-size="14" fill="#333" text-anchor="end">$4.50</text>
+  
+  <rect x="80" y="260" width="380" height="40" fill="#fff"/>
+  <text x="90" y="285" font-family="Arial" font-size="14" fill="#333">Chocolate Cake</text>
+  <text x="400" y="285" font-family="Arial" font-size="14" fill="#333" text-anchor="end">$8.95</text>
+  
+  <!-- Total Section -->
+  <rect x="80" y="320" width="380" height="2" fill="#ddd"/>
+  <text x="90" y="345" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Total</text>
+  <text x="400" y="345" font-family="Arial" font-size="16" font-weight="bold" fill="#333" text-anchor="end">$50.94</text>
+  
+  <!-- Function Buttons -->
+  <rect x="480" y="130" width="250" height="300" fill="#f5f7fa" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Menu Categories -->
+  <rect x="490" y="140" width="110" height="60" rx="5" ry="5" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <text x="545" y="175" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Appetizers</text>
+  
+  <rect x="610" y="140" width="110" height="60" rx="5" ry="5" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <text x="665" y="175" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Main Course</text>
+  
+  <rect x="490" y="210" width="110" height="60" rx="5" ry="5" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <text x="545" y="245" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Desserts</text>
+  
+  <rect x="610" y="210" width="110" height="60" rx="5" ry="5" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+  <text x="665" y="245" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Beverages</text>
+  
+  <!-- Action Buttons -->
+  <rect x="490" y="290" width="110" height="60" rx="5" ry="5" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+  <text x="545" y="325" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Pay</text>
+  
+  <rect x="610" y="290" width="110" height="60" rx="5" ry="5" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <text x="665" y="325" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Cancel</text>
+  
+  <rect x="490" y="360" width="230" height="60" rx="5" ry="5" fill="#f39c12" stroke="#d35400" stroke-width="1"/>
+  <text x="605" y="395" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">Print Receipt</text>
+</svg>
